@@ -1,0 +1,31 @@
+.content{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  /* Attach the column to the left-side*/
+  margin-left: 0px;
+  font-family: Raleway;
+}
+
+.table {
+  width: 100vw;
+  margin-left: 10px;
+  padding-right: 200px;
+  padding-left: 100px;
+  font-size: 25px;
+  text-align: left;
+}
+
+th, td {
+  border: 2px solid black;
+  width: 50%;
+}
+
+.table th, td{
+padding-left:10px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+.table th{
+  font-family: Pacifico;
+}

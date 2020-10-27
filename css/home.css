@@ -1,0 +1,28 @@
+*{
+      font-family: 'Pacifico', sans-serif;
+}
+.btn{
+  margin-top:10%;
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: black;
+  color: #FAFAFA;
+}
+.container{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.content{
+  flex: 50%;
+  padding-top: 120px;
+  font-size:20px;
+}
+.graphic{
+  flex: 50%;
+  padding-left: 10px;
+}

@@ -1,0 +1,13 @@
+* {
+   overflow-x: hidden;
+}
+
+.content {
+  font-size: 25px;
+  margin: 1vw;
+  padding-left: 30px;
+}
+.text{
+  font-family: Pacifico, sans-serif;
+  font-size: 30px;
+}

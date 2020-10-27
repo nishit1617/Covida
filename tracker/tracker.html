@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--This is the code for home page -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid-19 Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../tracker/tracker.css">
+</head>
+  <body>
+    <!-- Override the external css if the device
+    screen is small. -->
+    <style media="only screen and (max-width: 1000px)">
+      .logo {
+        line-height: 6vh;
+        width: 100%;
+        font-size: 4vw;
+        color: #000000;
+      }
+      nav {
+        line-height: 8vh;
+        width: 100vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+      }
+      .content {
+        font-size : 2vw;
+      }
+    </style>
+    <!-- The code for the navigator is responsive to
+    the width of device screen (try it) and do not
+    modify it. -->
+    <header>
+    <center>
+      <a href="../index.html" class="link">Covida</a>
+        <nav>
+          <a href="../index.html" class="nav-header">Home</a>
+          <a href="../about.html" class="nav-header">About</a>
+          <a href="../history/history.html" class="nav-header">History</a>
+          <a href="../symptoms.html" class="nav-header">Symptoms</a>
+          <a href="../do's_and_don'ts.html" class="nav-header">Do's and Don'ts</a>
+          <a href="../gov-info.html" class="nav-header">Government Helpline</a>
+          <a href="../tracker/tracker.html"  style="color: #000000;" class="nav-header">Covid-19 Tracker</a>
+        </nav>
+      </center>
+      </header>
+      <!-- All our content should be put in the
+      div tag with class 'content' -->
+      <div class="content">
+        <br>
+        <p class="text"> The following interactive chart shows the number
+          of cases of Covid-19 in the world. </p>
+        <br>
+        <div id="map"><script src="tracker.js"></script></div>
+      </div>
+      <!-- The code for the footer should also
+      not be changed -->
+      <!-- PS -: The footer will always appear at the end of the content.
+      If the content is shorter than the height of the screen for a
+      page, then simply add stlye="position: absolute; bottom: 0;"
+      as an attribute to the footer.
+      -->
+      <br>
+    <footer class="footer">
+    <p class="footer-p"> ©Covida, All rights reserved.</p>
+  </footer>
+  </body>
+</html>

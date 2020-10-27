@@ -1,0 +1,79 @@
+ /* All the css code to be written in this file only*/
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #FAFAFA;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+    font-family: 'Pacifico', sans-serif;
+}
+header a{
+  text-decoration: none;
+
+}
+
+.nav-header {
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  text-decoration: none;
+  color: #999999;
+  padding: 0.7% 0.7%;
+  border-radius: 10px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.nav-header:hover {
+  color: #000000;
+
+}
+nav {
+  line-height: 8vh;
+  width: 100vw;
+  font-size: 20px;
+  margin-top: 2vw;
+      font-family: 'Pacifico', sans-serif;
+}
+
+.column{
+  font-family: Raleway, sans-serif;
+}
+
+.content {
+  margin-top: 2%;
+  font-size: 15px;
+}
+
+
+.footer{
+      font-family: 'Pacifico', sans-serif;
+}
+.footer-p {
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+  padding-top: 2.5vh;
+  background-color: black;
+  color: white;
+  font-family: serif;
+      font-family: 'Pacifico', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  width: 100%;
+  font-size: 50px;
+  color: #000000;
+  font-family: 'Pacifico', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
